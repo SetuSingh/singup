@@ -1,0 +1,47 @@
+html,body {
+  height: 100% !important;
+}
+
+body {
+  display: flex !important;
+  align-items: center !important;
+  padding-top: 40px !important;
+  padding-bottom: 40px !important;
+  background-color: #f5f5f5 !important;
+}
+
+.form-signin {
+  width: 100% !important;
+  max-width: 330px !important;
+  padding: 15px !important;
+  margin: auto !important;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2 !important;
+}
+
+.top{
+  margin-bottom: -1px !important;
+  border-bottom-right-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+
+}
+.top::placeholder,.mid::placeholder,.bottom::placeholder{
+  color: gray !important;
+}
+
+.mid{
+border-radius: 0px !important ;
+margin-bottom: -1px !important;
+z-index: 5 !important;
+}
+
+.bottom{
+  margin-bottom: 9px !important;
+  border-top-right-radius: 0px !important;
+  border-top-left-radius: 0px !important;
+  border-bottom-right-radius: 5px !important;
+  border-bottom-left-radius: 5px !important;
+  z-index: 1 !important;
+}
